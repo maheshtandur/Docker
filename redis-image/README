@@ -1,0 +1,4 @@
+
+Command to create redis image by the Dockerfile:
+  $docker build .
+  $docker run <image id>
