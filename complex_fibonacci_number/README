@@ -17,3 +17,15 @@ Steps:
 		
 	• or Run the command with docker-compoise.yml file
 		○ docker-compose up
+	
+	• Output of docker-compose up 
+		complex_fibonacci_number-client-1    |   Local:            http://localhost:3050
+		complex_fibonacci_number-client-1    |   On Your Network:  http://172.18.0.3:3000
+		complex_fibonacci_number-client-1    |
+		complex_fibonacci_number-client-1    | Note that the development build is not optimized.
+		complex_fibonacci_number-client-1    | To create a production build, use npm run build.
+		complex_fibonacci_number-client-1    |
+		complex_fibonacci_number-client-1    | webpack compiled successfully
+	
+	• Open browser and type URL: http://localhost:3050/  
+	
