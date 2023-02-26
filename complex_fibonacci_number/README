@@ -1,0 +1,8 @@
+Steps: 
+	• Create development Docker file container for 
+		○ Client
+		○ Server
+		○ Worker
+	• cd client
+		○ docker build -f Dockerfile.dev .
+		○ docker  run <container id>
