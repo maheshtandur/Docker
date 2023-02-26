@@ -1,0 +1,35 @@
+Docker Compose with Multiple Containers 
+
+App Overview
+Steps:
+	• Create Node JS web app
+	• Create a Dockerfile
+	• Build image from dockerfile
+	• Run image as Container
+	• Connect to web app from a browser
+
+
+Run command:
+	• $docker-compose up 
+	• Or
+	• $docker-compose up --build
+	• Open browser with URL:
+		○ localhost:4001
+	• You can see number of visits
+		○ Ex: 
+		Number of visits is 22
+		
+Stopping Docker Compose Container:
+	•  # start multiple container
+		• $docker-compose up -d 
+	• # Stops multiple container
+$docker-compose down
+
+
+Container status with Docker compose
+  $docker run redis
+  $docker ps 
+ 
+Run from the patch where the docker-compose path
+  $docker-compose up 
+  $docker-compose ps
