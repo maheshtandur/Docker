@@ -15,4 +15,5 @@ Steps:
 		○ docker build -f Dockerfile.dev .
 		○ docker  run <container id>
 		
-		
+	• or Run the command with docker-compoise.yml file
+		○ docker-compose up
