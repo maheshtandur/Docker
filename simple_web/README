@@ -1,0 +1,16 @@
+Steps to create Node JS web app 
+	• Create Node JS web app
+	• Create a Dockerfile
+	• Build image from dockerfile
+	• Run image as Container
+	• Connect to web app from a browser
+	• Create below files
+
+Commands:
+	• $docker build -t <image/tagname>
+	• $docker run <image/tagname>
+	• $docker run -p 8080:8080 mtandur/simpleweb
+	• $docker run -it mtandur/simpleweb sh # open shell in interactive mode
+	• Or
+$docker exec -it <container id> sh 
+
