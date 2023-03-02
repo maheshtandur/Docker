@@ -12,5 +12,8 @@ Commands:
 	• $docker run -p 8080:8080 mtandur/simpleweb
 	• $docker run -it mtandur/simpleweb sh # open shell in interactive mode
 	• Or
-$docker exec -it <container id> sh 
+	• $docker exec -it <container id> sh 
+	
+	Open web browser with URL: http://localhost:8080/
+		ANd you wil see the message
 
