@@ -1,4 +1,8 @@
 
-Command to create redis image by the Dockerfile:
+Command to create redis image by using Dockerfile:
   $docker build .
   $docker run <image id>
+
+Tagging Docker Image:
+  $docker build -t <tag name> .
+  example: docker build -t mtandur/redis:latest .
