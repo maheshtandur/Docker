@@ -5,8 +5,9 @@ FROM node:14-alpine
 WORKDIR /simpleweb 
  
 #install some dependencies
-COPY ./ ./
+COPY ./package.json ./
 RUN npm install
- 
+COPY ./ ./
+
 #Default Command
 CMD ["npm", "start"]
