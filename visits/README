@@ -7,8 +7,6 @@ Steps:
 	• Build image from dockerfile
 	• Run image as Container
 	• Connect to web app from a browser
-
-
 Run command:
 	• $docker-compose up 
 	• Or
@@ -33,3 +31,8 @@ Container status with Docker compose
 Run from the patch where the docker-compose path
   $docker-compose up 
   $docker-compose ps
+
+
+To check number of visits:
+	Open web browser with URL: http://localhost:4001/
+	And you can see number of visits 
