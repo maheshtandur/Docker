@@ -1,0 +1,4 @@
+Download the python-app dir
+Build docker image
+    docker build .
+docker run -it <CONTAINER ID>
